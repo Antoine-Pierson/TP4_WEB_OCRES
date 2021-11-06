@@ -1,6 +1,4 @@
 import React from 'react';
-import './Profil.js';
-import { Profil } from './Profil';
 
 export class Button extends React.Component {
     render() {

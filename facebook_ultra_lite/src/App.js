@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import './Button.js'
+import './Button.js';
 import { Button } from './Button';
 import './Profil.js';
 import { Profil } from './Profil';
@@ -8,9 +8,9 @@ import { Profil } from './Profil';
 class App extends React.Component {
   constructor(props){
     super(props);
-    const profils = [<Profil image="images/Jack.svg" nom="Daniel" prenom="Jack"  birth="18/05/1895" lastPublished="Je m'appelle Jack" likes="0"/>, 
-                    <Profil image="images/Charlotte.svg" nom="Au Fraise" prenom="Charlotte" birth="27/12/2012" lastPublished="Je m'appelle Charlotte" likes="0"/>, 
-                    <Profil image="images/Camille.svg" nom="Lestrange" prenom="Camille" birth="07/03/1984" lastPublished="Je m'appelle Camille" likes="0"/>,];
+    const profils = [<Profil image='./images/Jack.jpg' nom="Daniel" prenom="Jack"  birth="18/05/1895" lastPublished="Je m'appelle Jack" likes={0}/>, 
+                    <Profil image='./images/Charlotte.jpg' nom="Au Fraise" prenom="Charlotte" birth="27/12/2012" lastPublished="Je m'appelle Charlotte" likes={0}/>, 
+                    <Profil image='./images/Camille.jpg' nom="Lestrange" prenom="Camille" birth="07/03/1984" lastPublished="Je m'appelle Camille" likes={0}/>,];
     this.state = {
       currentProfil: profils[0],
       profilTab: profils

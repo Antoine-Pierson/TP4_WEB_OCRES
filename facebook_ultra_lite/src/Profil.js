@@ -33,7 +33,7 @@ export class Profil extends React.Component {
   
     render() {
       return(
-        <div className="profil" style={{ backgroundColor: this.state.bgdColor }}>
+      <div className="profil" style={{ backgroundColor: this.state.bgdColor }}>
         <img src={this.props.image}/>
         <p>Nom: {this.props.nom}</p>   
         <p>Prenom: {this.props.prenom}</p>
